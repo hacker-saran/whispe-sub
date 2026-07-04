@@ -1,0 +1,34 @@
+# Python compiled bytecode & runtime caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+ENV/
+env/
+
+# Flask / Server runtime directories
+Server/uploads/*
+!Server/uploads/.gitkeep
+Server/results/*
+!Server/results/.gitkeep
+
+# Node.js dependencies & client build outputs
+Client/node_modules/
+Client/dist/
+Client/dist-ssr/
+Client/*.local
+
+# Editor / IDE settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS-specific files
+.DS_Store
+Thumbs.db
